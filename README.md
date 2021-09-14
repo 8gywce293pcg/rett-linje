@@ -9,7 +9,6 @@ strip.setBrightness(50)
 let HØYDE = 10
 let LED_NUMMER = HØYDE
 let TELLER = 0
-
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
     strip.show()
