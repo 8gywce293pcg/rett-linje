@@ -102,7 +102,7 @@ Dette for å sette hvilken LED_NUMMER som skal begynne å lyse.
 let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 strip.clear()
-let HØYDE = 5
+let HØYDE = 50
 let LED_NUMMER = HØYDE
 let TELLLER = 0
 let TELLER2 = 100
