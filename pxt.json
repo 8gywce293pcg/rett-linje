@@ -10,7 +10,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "READ2.md"
+        
     ],
     "targetVersions": {
         "branch": "v4.0.11",
