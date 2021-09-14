@@ -90,7 +90,7 @@ Dette for å sette hvilken LED_NUMMER som skal begynne å lyse.
 let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 strip.clear()
-let HØYDE = 8
+let HØYDE = 5
 let LED_NUMMER = HØYDE
 ```
 ## Steg 6: Lage en variabel for X retning. Antall LED Y=16  X=48 = Y * X= 768
@@ -102,10 +102,9 @@ Dette for å sette hvilken LED_NUMMER som skal begynne å lyse.
 let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 strip.clear()
-let HØYDE = 50
+let HØYDE = 5
 let LED_NUMMER = HØYDE
-let TELLLER = 0
-let TELLER2 = 100
+let TELLER = 0
 ```
 ## Steg 7: Sette opp neste LED som skal lyse.
 Trykk på ``||Neopixel: Neopixel ||`` fra blokkmenyen.
