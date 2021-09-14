@@ -10,7 +10,7 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "R2.md"
+        "README.md"
         
     ],
     "targetVersions": {
