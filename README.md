@@ -104,7 +104,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 5
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 6
 ```
 ## Steg 7: Sette opp neste LED som skal lyse.
 Trykk på ``||Neopixel: Neopixel ||`` fra blokkmenyen.
@@ -118,7 +118,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 7
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
