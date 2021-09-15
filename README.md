@@ -8,7 +8,7 @@ let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
     strip.show()
@@ -104,7 +104,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 5
 let LED_NUMMER = HØYDE
-let TELLER = 6
+let TELLER = 1
 ```
 ## Steg 7: Sette opp neste LED som skal lyse.
 Trykk på ``||Neopixel: Neopixel ||`` fra blokkmenyen.
@@ -118,7 +118,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 7
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -135,7 +135,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -153,7 +153,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -172,7 +172,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -192,7 +192,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -213,7 +213,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -234,7 +234,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -256,7 +256,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -281,7 +281,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -306,7 +306,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -326,7 +326,7 @@ basic.forever(function () {
 Trykk på ``||Logic: Logikk||`` fra blokkmenyen og klikk og dra inn ``||Logic:hvis||`` og sett denne inn i under ``||Variabler: endre [TELLER] med (1) ||``.
 Trykk på ``||Logic: Logikk||`` fra blokk menyen og klikk og dra inn ``||Logic: < 0 = 0 > ||`` og sett denne inn i ``||Logic:hvis||``.
 Trykk på ``||Variabler: Variabel||`` fra blokkmenyen og klikk og dra blokken ``||Variabler:  TELLER ||``  i første 0 inni  ``||Logic: < 0 = 0 > ||`` blokken.
-og sett denne til ``||Logic: < TELLER = 47 > ||``.
+og sett denne til ``||Logic: < TELLER = 48 > ||``.
 Denne brukes for å nullstille X rettning når nådd 47.
 
 ```blocks
@@ -335,7 +335,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -348,7 +348,7 @@ basic.forever(function () {
     basic.pause(100)
     LED_NUMMER += 1 + HØYDE * 2
     TELLER += 1
-    if (TELLER == 47) {
+    if (TELLER == 48) {
         
     }
 })
@@ -364,7 +364,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -377,15 +377,15 @@ basic.forever(function () {
     basic.pause(100)
     LED_NUMMER += 1 + HØYDE * 2
     TELLER += 1
-    if (TELLER == 47) {
+    if (TELLER == 48) {
         strip.clear()
     }
 })
 ```
 
 ## Steg 19 nullstille variabelen TELLER for å kunne telle fra 0 - 47 på nytt.
-Trykk på ``||Variabler: variabel ||`` fra blokkmenyen, klikk og dra blokken ``||Variabler: Sett TELLER ||`` og sett verdi til 0.
-Dette for å nullstille teller i X rettningen, som er fra 0 - 47.
+Trykk på ``||Variabler: variabel ||`` fra blokkmenyen, klikk og dra blokken ``||Variabler: Sett TELLER ||`` og sett verdi til 1.
+Dette for å nullstille teller i X rettningen, som er fra 1 - 48.
 
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
@@ -393,7 +393,7 @@ strip.setBrightness(50)
 strip.clear()
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
@@ -406,9 +406,9 @@ basic.forever(function () {
     basic.pause(100)
     LED_NUMMER += 1 + HØYDE * 2
     TELLER += 1
-    if (TELLER == 47) {
+    if (TELLER == 48) {
         strip.clear()
-        TELLER = 0
+        TELLER = 1
     }
 })
 ```
@@ -421,7 +421,7 @@ let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
     strip.show()
@@ -433,10 +433,10 @@ basic.forever(function () {
     basic.pause(100)
     LED_NUMMER += 1 + HØYDE * 2
     TELLER += 1
-    if (TELLER > 47) {
+    if (TELLER > 48) {
         strip.clear()
         strip.show()
-        TELLER = 0
+        TELLER = 1
         HØYDE = randint(0, 15)
     }
 })
@@ -451,7 +451,7 @@ let strip = neopixel.create(DigitalPin.P0, 768, NeoPixelMode.RGB)
 strip.setBrightness(50)
 let HØYDE = 10
 let LED_NUMMER = HØYDE
-let TELLER = 0
+let TELLER = 1
 basic.forever(function () {
     strip.setPixelColor(LED_NUMMER, neopixel.colors(NeoPixelColors.Red))
     strip.show()
@@ -463,10 +463,10 @@ basic.forever(function () {
     basic.pause(100)
     LED_NUMMER += 1 + HØYDE * 2
     TELLER += 1
-    if (TELLER > 47) {
+    if (TELLER > 48) {
         strip.clear()
         strip.show()
-        TELLER = 0
+        TELLER = 1
         HØYDE = randint(0, 15)
         LED_NUMMER = HØYDE
     }
